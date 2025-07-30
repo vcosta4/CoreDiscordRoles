@@ -42,10 +42,10 @@ const selections = new Map();
 printSelections();
 
 // Replace these with the actual message IDs
-const WHO_MESSAGE_ID = "1400169681649795223";
-const AGE_MESSAGE_ID = "1400170255992754246";
-const LEVEL_MESSAGE_ID = "1400170987227447336";
-const GENDER_MESSAGE_ID = "1400171150855901267";
+const WHO_MESSAGE_ID = process.env.WHO_MESSAGE_ID;
+const AGE_MESSAGE_ID = process.env.AGE_MESSAGE_ID;
+const LEVEL_MESSAGE_ID = process.env.LEVEL_MESSAGE_ID;
+const GENDER_MESSAGE_ID = process.env.GENDER_MESSAGE_ID;
 
 async function printSelections() {
   console.log("Current selections:");
